@@ -131,7 +131,7 @@ class FilesystemUpdater
                 if ($this->syncEmptyTranslations) {
                     $translation = sprintf('[%s]', $m->getId());
                 } else {
-                    continue 2;
+                    break;
                 }
             }
 
